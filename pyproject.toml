@@ -16,6 +16,7 @@ test = ["pytest==8.4.2"]
 include = ["akule*", "diffuser*", "scripts*"]
 
 [tool.pytest.ini_options]
+testpaths = ["tests"]
 pythonpath = [".", "scripts"]
 
 [[tool.uv.index]]

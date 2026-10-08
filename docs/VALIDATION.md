@@ -7,8 +7,8 @@ Validation checks the released implementations and assets; it does not rerun the
 - **12 CUDA smoke commands completed**: Weave N=28 unary, dense, and sparse with repair; Basic N=3 unary, dense, and sparse with repair; Dense, Shelf, and Room N=3 sparse; Highways and Conveyor N=3 sparse with repair; ScaledWeave N=40 sparse proposal inference.
 - Complete-planner smoke runs returned native `SUCCESS` for Weave, Basic, Highways, and Conveyor. A separate fresh-environment Weave N=28 run also returned `SUCCESS` with zero final native conflicts.
 - CPU proposal inference passed for Basic and Highways. Basic also passed in the clean installed environment.
-- All six checkpoint archives passed SHA256/size checks and an offline download/extraction round trip.
-- The project website passed Chromium playback and gallery checks for all eight environments at 1440, 768, and 390 pixel widths, with no horizontal overflow or JavaScript errors. Citation copying and reduced-motion behavior were checked.
+- All six checkpoint archives passed anonymous public download, SHA256/size checks, and extraction. A fresh public checkout passed all 37 tests and CPU proposal inference using these downloaded assets.
+- The live GitHub Pages website passed Chromium playback and gallery checks for all eight environments at 1440, 768, and 390 pixel widths, with no horizontal overflow or JavaScript errors. Citation copying and reduced-motion behavior were checked.
 
 Run the lightweight suite after downloading the model assets:
 
