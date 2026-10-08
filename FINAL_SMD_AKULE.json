@@ -1,0 +1,12 @@
+{
+  "unary_checkpoint_path": "checkpoints/smd/unary.pt",
+  "unary_sha256": "cd99bcff189953cda606761a16b8299c2dee76d89494b771370e55b7058c344a",
+  "r_checkpoint_path": "checkpoints/smd/r.pt",
+  "r_sha256": "90a6d3f2de1f9265066379338ff17c9e3636328e2ef0d564698c23f7d4299eb3",
+  "g_checkpoint_path": "checkpoints/smd/g.pt",
+  "g_sha256": "e9d0cb8bd515236bbfc77c4dcecbc4f9fdbad753fbf502c26075a2a14f2bb084",
+  "u_checkpoint_path": "checkpoints/smd/u.pt",
+  "u_sha256": "ea930df5c02d27585e1d56e5a0bf38ac4415fad7376210797d61c18dfe5ec3e2",
+  "backend_source_path": "integrations/smd_runtime/scripts/canonical_mmd_repair.py",
+  "backend_source_sha256": "7059e74ca069d1dee14e9d773a833946c108ffc13a7b2dd5a899c6d611c84b2d"
+}

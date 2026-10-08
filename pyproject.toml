@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "akule"
+version = "1.0.0"
+description = "Sparse interaction diffusion for multi-robot motion planning"
+requires-python = ">=3.9,<3.10"
+dependencies = ["numpy==1.23.5", "scipy==1.10.1", "torch==2.7.0", "pyyaml==6.0", "einops==0.7.0", "matplotlib==3.5.3", "pandas==1.3.5", "pillow==11.3.0", "gym==0.23.1", "scikit-image==0.19.3", "scikit-video==1.1.11", "pygame==2.1.3", "seaborn==0.12.2", "tqdm==4.65.0", "gitpython==3.1.9", "wandb==0.26.1", "joblib==1.5.3"]
+
+[project.optional-dependencies]
+test = ["pytest==8.4.2"]
+
+[tool.setuptools.packages.find]
+include = ["akule*", "diffuser*", "scripts*"]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "scripts"]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }

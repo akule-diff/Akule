@@ -1,0 +1,307 @@
+{
+  "version": "v1.0.0",
+  "distribution": "Git LFS archives; authenticated publication through dedicated SSH identity",
+  "environments": {
+    "weave": [
+      "weave"
+    ],
+    "basic": [
+      "smd"
+    ],
+    "dense": [
+      "smd"
+    ],
+    "shelf": [
+      "smd"
+    ],
+    "room": [
+      "smd"
+    ],
+    "highways": [
+      "smd",
+      "maps",
+      "highways"
+    ],
+    "conveyor": [
+      "smd",
+      "maps",
+      "conveyor"
+    ],
+    "scaledweave": [
+      "weave",
+      "smd",
+      "scaledweave"
+    ]
+  },
+  "archives": [
+    {
+      "name": "weave",
+      "filename": "akule-weave-v1.0.0.tar.gz",
+      "version": "v1.0.0",
+      "sha256": "e926b412d871ca9c4c3d697bc2bf7c9eec479a279f4ac60bdf6eeb74d8726054",
+      "size_bytes": 32002804,
+      "required_code_version": "v1.0.0",
+      "url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-weave-v1.0.0.tar.gz"
+    },
+    {
+      "name": "smd",
+      "filename": "akule-smd-v1.0.0.tar.gz",
+      "version": "v1.0.0",
+      "sha256": "7fb3dd632bc07f9719f1c67941dc25d7beaf5fc8b6787fb8a56c250443368415",
+      "size_bytes": 17553445,
+      "required_code_version": "v1.0.0",
+      "url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-smd-v1.0.0.tar.gz"
+    },
+    {
+      "name": "maps",
+      "filename": "akule-maps-v1.0.0.tar.gz",
+      "version": "v1.0.0",
+      "sha256": "91fe1db909bba7624b240388ffd4ba5af5d26cde957e50f2d3f0c0913133b02d",
+      "size_bytes": 2218913,
+      "required_code_version": "v1.0.0",
+      "url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-maps-v1.0.0.tar.gz"
+    },
+    {
+      "name": "highways",
+      "filename": "akule-highways-v1.0.0.tar.gz",
+      "version": "v1.0.0",
+      "sha256": "895b5e8be1b623a7970ff31d64d592d6fc98f0de8ac0403a760bd39c65ca7b41",
+      "size_bytes": 13341747,
+      "required_code_version": "v1.0.0",
+      "url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-highways-v1.0.0.tar.gz"
+    },
+    {
+      "name": "conveyor",
+      "filename": "akule-conveyor-v1.0.0.tar.gz",
+      "version": "v1.0.0",
+      "sha256": "2655a5d3efaed42312df32f1316cd1f425a14881de3d1ff118caa9967136c9c7",
+      "size_bytes": 24263704,
+      "required_code_version": "v1.0.0",
+      "url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-conveyor-v1.0.0.tar.gz"
+    },
+    {
+      "name": "scaledweave",
+      "filename": "akule-scaledweave-v1.0.0.tar.gz",
+      "version": "v1.0.0",
+      "sha256": "656e4efb99ddafb1e24ed1a8ebf2fd90fae056d976b0d0171913245406af7067",
+      "size_bytes": 1887856,
+      "required_code_version": "v1.0.0",
+      "url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-scaledweave-v1.0.0.tar.gz"
+    }
+  ],
+  "models": [
+    {
+      "path": "checkpoints/MPD.pth",
+      "sha256": "e461a013971add07290bea58ec0e422019106a998338d01373cce23fae4f325c",
+      "size_bytes": 15907675,
+      "environments": [
+        "weave"
+      ],
+      "component": "unary",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-weave-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-weave-v1.0.0.tar.gz"
+    },
+    {
+      "path": "checkpoints/R_ft.pt",
+      "sha256": "c683fa1bf92f885308f55fac4493d204b0ee6c6b1bbc5ad379816f0a3ff929cc",
+      "size_bytes": 345283,
+      "environments": [
+        "weave"
+      ],
+      "component": "R_ft",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-weave-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-weave-v1.0.0.tar.gz"
+    },
+    {
+      "path": "checkpoints/G.pt",
+      "sha256": "1146473798e2998e414fdf822e39fbea3c5c70182d205ba5987dc9364bdcc523",
+      "size_bytes": 2045864,
+      "environments": [
+        "weave"
+      ],
+      "component": "G",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-weave-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-weave-v1.0.0.tar.gz"
+    },
+    {
+      "path": "checkpoints/U.pt",
+      "sha256": "6952ef0965bbc29e2e242a6818959bf8bacd54c1e6d69bbdb3f8f3571965b601",
+      "size_bytes": 360617,
+      "environments": [
+        "weave"
+      ],
+      "component": "U",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-weave-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-weave-v1.0.0.tar.gz"
+    },
+    {
+      "path": "checkpoints/smd/unary.pt",
+      "sha256": "cd99bcff189953cda606761a16b8299c2dee76d89494b771370e55b7058c344a",
+      "size_bytes": 5011747,
+      "environments": [
+        "basic",
+        "dense",
+        "shelf",
+        "room"
+      ],
+      "component": "unary",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-smd-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-smd-v1.0.0.tar.gz"
+    },
+    {
+      "path": "checkpoints/smd/r.pt",
+      "sha256": "90a6d3f2de1f9265066379338ff17c9e3636328e2ef0d564698c23f7d4299eb3",
+      "size_bytes": 345098,
+      "environments": [
+        "basic",
+        "dense",
+        "shelf",
+        "room"
+      ],
+      "component": "r",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-smd-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-smd-v1.0.0.tar.gz"
+    },
+    {
+      "path": "checkpoints/smd/g.pt",
+      "sha256": "e9d0cb8bd515236bbfc77c4dcecbc4f9fdbad753fbf502c26075a2a14f2bb084",
+      "size_bytes": 2045864,
+      "environments": [
+        "basic",
+        "dense",
+        "shelf",
+        "room"
+      ],
+      "component": "g",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-smd-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-smd-v1.0.0.tar.gz"
+    },
+    {
+      "path": "checkpoints/smd/u.pt",
+      "sha256": "ea930df5c02d27585e1d56e5a0bf38ac4415fad7376210797d61c18dfe5ec3e2",
+      "size_bytes": 360617,
+      "environments": [
+        "basic",
+        "dense",
+        "shelf",
+        "room"
+      ],
+      "component": "u",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-smd-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-smd-v1.0.0.tar.gz"
+    },
+    {
+      "path": "checkpoints/maps/G.pt",
+      "sha256": "6706f84411cb978d634fb8383b7ea054b11e5eaf4e329512ef606cc510520259",
+      "size_bytes": 2045864,
+      "environments": [
+        "highways",
+        "conveyor"
+      ],
+      "component": "G",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-maps-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-maps-v1.0.0.tar.gz"
+    },
+    {
+      "path": "checkpoints/maps/U.pt",
+      "sha256": "4d3c40375e3cade0b4419672fbf11a3d3a6daa6d5e168858ea4965adbae55754",
+      "size_bytes": 360617,
+      "environments": [
+        "highways",
+        "conveyor"
+      ],
+      "component": "U",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-maps-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-maps-v1.0.0.tar.gz"
+    },
+    {
+      "path": "external/mmd/data_trained_models/EnvEmpty2D-RobotPlanarDisk/checkpoints/ema_model_current_state_dict.pth",
+      "sha256": "e461a013971add07290bea58ec0e422019106a998338d01373cce23fae4f325c",
+      "size_bytes": 15907675,
+      "environments": [
+        "weave"
+      ],
+      "component": "upstream_unary",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-weave-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-weave-v1.0.0.tar.gz"
+    },
+    {
+      "path": "external/mmd/data_trained_models/EnvEmptyNoWait2D-RobotPlanarDisk/checkpoints/ema_model_current_state_dict.pth",
+      "sha256": "ed1180b1136d7bfbce1b1c08097d868fbf737df8f2b14bb521cebed1ee0b3444",
+      "size_bytes": 4058699,
+      "environments": [
+        "basic",
+        "dense",
+        "shelf",
+        "room",
+        "scaledweave"
+      ],
+      "component": "upstream_unary",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-smd-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-smd-v1.0.0.tar.gz"
+    },
+    {
+      "path": "external/mmd/data_trained_models/EnvHighways2D-RobotPlanarDisk/checkpoints/ema_model_current_state_dict.pth",
+      "sha256": "ec2f16d9b173ed77644b3ceeb8a9e1a788eec697fb7c1720d645e6549bcb02fe",
+      "size_bytes": 4058699,
+      "environments": [
+        "highways"
+      ],
+      "component": "upstream_unary",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-highways-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-highways-v1.0.0.tar.gz"
+    },
+    {
+      "path": "external/mmd/data_trained_models/EnvConveyor2D-RobotPlanarDisk/checkpoints/ema_model_current_state_dict.pth",
+      "sha256": "43266a63347ab435f00ab0c2e6d05de513f9ecbe01e745cd146e8086884fa07a",
+      "size_bytes": 15907675,
+      "environments": [
+        "conveyor"
+      ],
+      "component": "upstream_unary",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-conveyor-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-conveyor-v1.0.0.tar.gz"
+    },
+    {
+      "path": "checkpoints/scaledweave/G.pt",
+      "sha256": "8ad58eab655bdecbe6ef97253038db5612c0d41efa9b4d1ad62edad4cbc3ce17",
+      "size_bytes": 2045864,
+      "environments": [
+        "scaledweave"
+      ],
+      "component": "G",
+      "version": "v1.0.0",
+      "required_code_version": "v1.0.0",
+      "archive": "akule-scaledweave-v1.0.0.tar.gz",
+      "download_url": "https://media.githubusercontent.com/media/akule-diff/Akule/main/checkpoints/bundles/akule-scaledweave-v1.0.0.tar.gz"
+    }
+  ]
+}

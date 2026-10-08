@@ -1,0 +1,16 @@
+{
+  "center_bound": 0.95,
+  "collision_weight": 50.0,
+  "dt": 0.078125,
+  "endpoint_tolerance": 0.05,
+  "gp_scale": 97.0556594883706,
+  "gp_weight": 0.2,
+  "length_scale": 1.8758727280392737,
+  "length_weight": 0.2,
+  "native_distance": 0.105,
+  "radius": 0.05,
+  "teacher_distance": 0.11,
+  "trust_scale": 0.01,
+  "trust_weight": 0.05,
+  "workspace_weight": 100.0
+}

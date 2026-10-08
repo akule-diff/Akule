@@ -1,0 +1,307 @@
+{
+  "anchor_confidence": [
+    0.7378819584846497,
+    0.9012179598212242,
+    0.9428881946951151,
+    0.9508863240480423,
+    0.9361976943910122,
+    0.9083746746182442,
+    0.2935163974761963
+  ],
+  "anchors": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "calibration_samples": 2,
+  "confidence": [
+    0.7480904585681856,
+    0.7787159588187933,
+    0.8195499591529369,
+    0.8603839594870806,
+    0.8936138494173065,
+    0.9116355185396969,
+    0.9220530772581697,
+    0.9324706359766424,
+    0.9407836881000549,
+    0.9448877270333469,
+    0.9468872593715787,
+    0.9488867917098105,
+    0.94946840160992,
+    0.9472141666337848,
+    0.9435420092195272,
+    0.9398698518052697,
+    0.9353767950087786,
+    0.9292419394478202,
+    0.9222861845046282,
+    0.9153304295614362,
+    0.8716849710326642,
+    0.7546601053327322,
+    0.6009455360472202,
+    0.44723096676170826,
+    0.3319450397975743
+  ],
+  "formula": "c_t=clip((E_base,t-E_frozen_R_projection,t)/E_base,t,0,1); linear interpolation over normalized diffusion time; 3-point smoothing; w_t=max(c_t,0.05)/mean_t max(c_t,0.05)",
+  "manifest": "historical/FROZEN_128.json",
+  "manifest_sha256": "2b2036774994653ee5125d49ee5bf314fa8bff54ca844b43dacc77a0a25c67c8",
+  "projection_steps": 32,
+  "rows": [
+    {
+      "base_error": 2.0,
+      "confidence": 0.7207502722740173,
+      "projected_error": 0.5584994554519653,
+      "rank": 0,
+      "timestep": 0,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.8811697661876678,
+      "projected_error": 0.2376604676246643,
+      "rank": 0,
+      "timestep": 4,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.9292494133114815,
+      "projected_error": 0.14150117337703705,
+      "rank": 0,
+      "timestep": 8,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.9501174166798592,
+      "projected_error": 0.09976516664028168,
+      "rank": 0,
+      "timestep": 12,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.951180174946785,
+      "projected_error": 0.09763965010643005,
+      "rank": 0,
+      "timestep": 16,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.9201541244983673,
+      "projected_error": 0.15969175100326538,
+      "rank": 0,
+      "timestep": 20,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.29277515411376953,
+      "projected_error": 1.414449691772461,
+      "rank": 0,
+      "timestep": 24,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.7305899858474731,
+      "projected_error": 0.5388200283050537,
+      "rank": 0,
+      "timestep": 0,
+      "variant": 1
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.8848454505205154,
+      "projected_error": 0.23030909895896912,
+      "rank": 0,
+      "timestep": 4,
+      "variant": 1
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.9361157789826393,
+      "projected_error": 0.12776844203472137,
+      "rank": 0,
+      "timestep": 8,
+      "variant": 1
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.9494649954140186,
+      "projected_error": 0.10107000917196274,
+      "rank": 0,
+      "timestep": 12,
+      "variant": 1
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.928287923336029,
+      "projected_error": 0.1434241533279419,
+      "rank": 0,
+      "timestep": 16,
+      "variant": 1
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.9223956912755966,
+      "projected_error": 0.15520861744880676,
+      "rank": 0,
+      "timestep": 20,
+      "variant": 1
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.2717127799987793,
+      "projected_error": 1.4565744400024414,
+      "rank": 0,
+      "timestep": 24,
+      "variant": 1
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.7496720552444458,
+      "projected_error": 0.5006558895111084,
+      "rank": 1,
+      "timestep": 0,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.9203233942389488,
+      "projected_error": 0.15935321152210236,
+      "rank": 1,
+      "timestep": 4,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.9496606104075909,
+      "projected_error": 0.10067877918481827,
+      "rank": 1,
+      "timestep": 8,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.9516552314162254,
+      "projected_error": 0.09668953716754913,
+      "rank": 1,
+      "timestep": 12,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.9341249242424965,
+      "projected_error": 0.13175015151500702,
+      "rank": 1,
+      "timestep": 16,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.8688909411430359,
+      "projected_error": 0.2622181177139282,
+      "rank": 1,
+      "timestep": 20,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.29425764083862305,
+      "projected_error": 1.411484718322754,
+      "rank": 1,
+      "timestep": 24,
+      "variant": 0
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.7451739311218262,
+      "projected_error": 0.5096521377563477,
+      "rank": 1,
+      "timestep": 0,
+      "variant": 1
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.917590469121933,
+      "projected_error": 0.16481906175613403,
+      "rank": 1,
+      "timestep": 4,
+      "variant": 1
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.9526937901973724,
+      "projected_error": 0.09461241960525513,
+      "rank": 1,
+      "timestep": 8,
+      "variant": 1
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.9598706141114235,
+      "projected_error": 0.08025877177715302,
+      "rank": 1,
+      "timestep": 12,
+      "variant": 1
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.9382704645395279,
+      "projected_error": 0.12345907092094421,
+      "rank": 1,
+      "timestep": 16,
+      "variant": 1
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.896595224738121,
+      "projected_error": 0.20680955052375793,
+      "rank": 1,
+      "timestep": 20,
+      "variant": 1
+    },
+    {
+      "base_error": 2.0,
+      "confidence": 0.30833518505096436,
+      "projected_error": 1.3833296298980713,
+      "rank": 1,
+      "timestep": 24,
+      "variant": 1
+    }
+  ],
+  "size": 16,
+  "variants": 8,
+  "weights": [
+    0.8848217129707336,
+    0.9210447669029236,
+    0.9693421721458435,
+    1.0176395177841187,
+    1.0569430589675903,
+    1.0782585144042969,
+    1.0905802249908447,
+    1.1029016971588135,
+    1.1127341985702515,
+    1.1175884008407593,
+    1.1199533939361572,
+    1.1223183870315552,
+    1.1230062246322632,
+    1.12034010887146,
+    1.1159967184066772,
+    1.111653447151184,
+    1.1063390970230103,
+    1.0990829467773438,
+    1.0908559560775757,
+    1.0826287269592285,
+    1.031006097793579,
+    0.892592191696167,
+    0.7107825875282288,
+    0.5289730429649353,
+    0.3926158547401428
+  ]
+}

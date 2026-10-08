@@ -1,0 +1,26 @@
+{
+  "eligible_untouched_shadow_scenes": 2221,
+  "executed_test_scenes": 512,
+  "external_watchdog_seconds_per_scene": 255,
+  "fixed_test_manifest": "FINAL_N28_TEST_MANIFEST_V2.json",
+  "fixed_test_manifest_sha256": "4b1b8762fad21052d0856f5c30a81d539f329862e3873c982440a78e323cfe1f",
+  "fixed_test_source_sha256": "ae3c02497a9b562f29344fd8156f2610bb338189031ce65da8e4564ebd3e62ac",
+  "manifest_scenes": 1024,
+  "methods_in_execution_order": [
+    "sparse",
+    "dense",
+    "unary",
+    "official"
+  ],
+  "model_selection": "No benchmark checkpoint tuning, training, or shadow-based selection.",
+  "native_planning_limit_seconds_per_scene": 240,
+  "noise": "One deterministic balanced corpus noise variant per scene. Learned methods share full corpus rollout seed; official MMD uses its NumPy-compatible 32-bit reduction.",
+  "repair": "Sparse, dense and unary proposals use the same injected-root MMD XECBS repair. Official MMD uses its native proposal and XECBS planning path.",
+  "reuse_valid_smoke_scenes": true,
+  "size_decision": "Predeclared after the 16-scene four-method smoke based on approximately 30, 31, 74 and 84 seconds per scene for sparse, dense, unary and MMD respectively. A 1024-scene four-method benchmark would exceed the practical runtime budget. The first 512 manifest scenes are fixed before full evaluation; size was not chosen from observed quality outcomes.",
+  "smoke_scenes_per_method": 16,
+  "success": "All 28 final goals within 0.05 m, zero sampled pair-time conflicts at distance <0.100 m, and no timeout.",
+  "timeouts": "Retain each scene in the denominator and record timeout as final failure.",
+  "timing": "Synchronized uninstrumented proposal and native planner wall time per scene. Separate CUDA-event replay used only for model-component attribution.",
+  "version": "final-n28-benchmark-protocol-v1"
+}

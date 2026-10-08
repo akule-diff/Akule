@@ -1,0 +1,395 @@
+{
+  "attempted_train_scenes": 64,
+  "by_timestep": [
+    {
+      "coefficient_abs_quantiles": [
+        0.21155744045972824,
+        0.4972910135984421,
+        1.2542233884334566,
+        1.6473538547754298,
+        15.18005084991455
+      ],
+      "fraction_would_saturate": 0.0025236702868281814,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 0,
+      "training_median_per_state_p995": 1.3248239517211942
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.2680761516094208,
+        0.5159203112125397,
+        1.2018373847007764,
+        1.5531224548816684,
+        5.922357559204102
+      ],
+      "fraction_would_saturate": 0.0023119140443701846,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 1,
+      "training_median_per_state_p995": 1.5129405885934841
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.2792082875967026,
+        0.5240468978881836,
+        1.2551627874374411,
+        1.6154231637716305,
+        5.27382755279541
+      ],
+      "fraction_would_saturate": 0.0023438225192611156,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 2,
+      "training_median_per_state_p995": 1.6321912449598384
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.29420992732048035,
+        0.5075715184211731,
+        1.2813175320625412,
+        1.6821137458086017,
+        7.125169277191162
+      ],
+      "fraction_would_saturate": 0.002329318667037965,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 3,
+      "training_median_per_state_p995": 1.644303982853892
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.28553307056427,
+        0.49507273733615875,
+        1.2949783384799989,
+        1.6992728143930595,
+        5.548288822174072
+      ],
+      "fraction_would_saturate": 0.0024047386985983476,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 4,
+      "training_median_per_state_p995": 1.669951085448267
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.2854510247707367,
+        0.5004983246326447,
+        1.3471013903617892,
+        1.7528220623731634,
+        5.972692012786865
+      ],
+      "fraction_would_saturate": 0.0024395479439339087,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 5,
+      "training_median_per_state_p995": 1.699844012856485
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.2892964482307434,
+        0.5061132609844208,
+        1.3717707514762907,
+        1.7977976471185717,
+        6.147977828979492
+      ],
+      "fraction_would_saturate": 0.0024076394690429777,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 6,
+      "training_median_per_state_p995": 1.7637346541881622
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.30243512988090515,
+        0.5383062064647675,
+        1.4846712946891834,
+        1.9542278230190577,
+        6.331151485443115
+      ],
+      "fraction_would_saturate": 0.0024105402394876078,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 7,
+      "training_median_per_state_p995": 1.9547807341814116
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.31689953804016113,
+        0.5604736506938934,
+        1.5808271288871794,
+        2.0872282981872656,
+        7.1664137840271
+      ],
+      "fraction_would_saturate": 0.0023467232897057457,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 8,
+      "training_median_per_state_p995": 2.0556746709347036
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.34690943360328674,
+        0.6091834604740143,
+        1.6547877728939098,
+        2.175961601734163,
+        7.793773174285889
+      ],
+      "fraction_would_saturate": 0.0023148148148148147,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 9,
+      "training_median_per_state_p995": 2.1579173266887763
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.37258800864219666,
+        0.6892373561859131,
+        1.8031501829624192,
+        2.377575850486764,
+        7.567135334014893
+      ],
+      "fraction_would_saturate": 0.0023177155852594448,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 10,
+      "training_median_per_state_p995": 2.3299006056785587
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.4087078720331192,
+        0.75901859998703,
+        1.9627464413642883,
+        2.5700309157371546,
+        8.234607696533203
+      ],
+      "fraction_would_saturate": 0.0023119140443701846,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 11,
+      "training_median_per_state_p995": 2.534343461990363
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.48701226711273193,
+        0.8525513768196105,
+        2.1309740376472486,
+        2.7823731243610395,
+        7.994804859161377
+      ],
+      "fraction_would_saturate": 0.0023856764928193498,
+      "numerically_stable_states": 56,
+      "quality_useful_states": 57,
+      "timestep": 12,
+      "training_median_per_state_p995": 2.802017916440965
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.529784083366394,
+        0.9626381278038025,
+        2.3794099307060357,
+        3.111735823154402,
+        9.333118438720703
+      ],
+      "fraction_would_saturate": 0.002317934511330738,
+      "numerically_stable_states": 53,
+      "quality_useful_states": 57,
+      "timestep": 13,
+      "training_median_per_state_p995": 3.147693545818373
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.5845584869384766,
+        1.07918963432312,
+        2.5807741308212298,
+        3.369224566221237,
+        11.092430114746094
+      ],
+      "fraction_would_saturate": 0.002353198223733938,
+      "numerically_stable_states": 56,
+      "quality_useful_states": 57,
+      "timestep": 14,
+      "training_median_per_state_p995": 3.342501242160808
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.6277903020381927,
+        1.187531328201294,
+        2.801920144557955,
+        3.633467099666569,
+        11.439309120178223
+      ],
+      "fraction_would_saturate": 0.0022015236135606506,
+      "numerically_stable_states": 54,
+      "quality_useful_states": 57,
+      "timestep": 15,
+      "training_median_per_state_p995": 3.6132681739330295
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.640373021364212,
+        1.232250094413757,
+        2.910441894531251,
+        3.717395641803742,
+        12.819424629211426
+      ],
+      "fraction_would_saturate": 0.002362055933484505,
+      "numerically_stable_states": 56,
+      "quality_useful_states": 57,
+      "timestep": 16,
+      "training_median_per_state_p995": 3.5740585446357813
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.6455430388450623,
+        1.2555935978889465,
+        2.9913233637809777,
+        3.8732929646968843,
+        11.786788940429688
+      ],
+      "fraction_would_saturate": 0.0022422955536990623,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 17,
+      "training_median_per_state_p995": 3.767527219057147
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.6556606590747833,
+        1.1865499377250672,
+        2.9464148855209356,
+        3.8543119502067573,
+        11.402985572814941
+      ],
+      "fraction_would_saturate": 0.0022646211262282692,
+      "numerically_stable_states": 56,
+      "quality_useful_states": 57,
+      "timestep": 18,
+      "training_median_per_state_p995": 3.6985970568656965
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.6733452379703522,
+        1.130440592765808,
+        2.9208830714225806,
+        3.776064085960392,
+        11.840293884277344
+      ],
+      "fraction_would_saturate": 0.002416341780376868,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 19,
+      "training_median_per_state_p995": 3.6397434902191192
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.7013231813907623,
+        1.1445965886116027,
+        2.8683359718322756,
+        3.6919263625144993,
+        11.520687103271484
+      ],
+      "fraction_would_saturate": 0.0022675736961451248,
+      "numerically_stable_states": 56,
+      "quality_useful_states": 57,
+      "timestep": 20,
+      "training_median_per_state_p995": 3.5608985471725783
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.7673681080341339,
+        1.2070585846900939,
+        2.8330079960823062,
+        3.575489116907125,
+        18.634708404541016
+      ],
+      "fraction_would_saturate": 0.0022380479969765685,
+      "numerically_stable_states": 56,
+      "quality_useful_states": 57,
+      "timestep": 21,
+      "training_median_per_state_p995": 3.379403774738322
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.889919102191925,
+        1.2678965330123904,
+        2.8287252044677724,
+        3.5509247815608886,
+        28.012649536132812
+      ],
+      "fraction_would_saturate": 0.002477152477152477,
+      "numerically_stable_states": 55,
+      "quality_useful_states": 57,
+      "timestep": 22,
+      "training_median_per_state_p995": 3.3624999594688436
+    },
+    {
+      "coefficient_abs_quantiles": [
+        1.8541201949119568,
+        2.877186131477357,
+        5.929438447952265,
+        7.43037128925322,
+        50.24533462524414
+      ],
+      "fraction_would_saturate": 0.002308802308802309,
+      "numerically_stable_states": 55,
+      "quality_useful_states": 57,
+      "timestep": 23,
+      "training_median_per_state_p995": 7.304485785961223
+    },
+    {
+      "coefficient_abs_quantiles": [
+        0.5956702828407288,
+        1.883379876613617,
+        3.639319109916698,
+        4.151021623611451,
+        8.133065223693848
+      ],
+      "fraction_would_saturate": 0.0011022927689594356,
+      "numerically_stable_states": 57,
+      "quality_useful_states": 57,
+      "timestep": 24,
+      "training_median_per_state_p995": 4.109719102382676
+    }
+  ],
+  "no_validation_or_test": true,
+  "rejected_state_count": 17,
+  "rule": {
+    "eligibility": "training-only complete-qualified or strictly fewer .105 swept collision intervals than the same base; finite bounded reference coefficients",
+    "numerical_outlier_rule": "Reject only scale candidates with float64-to-float32 composer disagreement >0.005 m or per-state p99.5 |c| >20 times the training timestep median p99.5; retain all task attempts for final targets",
+    "optimizer": "zero-incumbent bounded L-BFGS-B with real float32 composer and unchanged complete-quality objective",
+    "provisional_scale_sha256": "f3bb6358c9d936b4fbabf5f198c7ebd9fa9d645bbe8df3684a85cf2d7091be17",
+    "quantile": 0.995,
+    "safety_multiplier": 1.25
+  },
+  "scales": [
+    2.0591923184692873,
+    1.9414030686020856,
+    2.019278954714538,
+    2.102642182260752,
+    2.1240910179913244,
+    2.1910275779664543,
+    2.2472470588982145,
+    2.442784778773822,
+    2.6090353727340823,
+    2.7199520021677035,
+    2.971969813108455,
+    3.2125386446714432,
+    3.4779664054512995,
+    3.889669778943002,
+    4.2115307077765465,
+    4.541833874583211,
+    4.6467445522546775,
+    4.841616205871105,
+    4.817889937758447,
+    4.72008010745049,
+    4.614907953143124,
+    4.469361396133906,
+    4.438655976951111,
+    9.287964111566524,
+    5.1887770295143145
+  ],
+  "source_manifest_sha256": "63402277b7635a308d2cc05cc79687a98847b37d01c1b5155ca1d3907a3f8c80",
+  "usable_reference_train_scenes": 57,
+  "used_state_count": 1408
+}
