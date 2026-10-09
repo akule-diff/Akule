@@ -9,9 +9,9 @@
 
 *Anonymous research release accompanying the submitted AAMAS paper.*
 
-<a href="https://akule-diff.github.io/#demos"><img src="assets/demos/weave.gif" width="560" alt="Recorded Akule robot trajectories on Canonical Weave with 28 robots"></a>
+<a href="https://akule-diff.github.io/#demos"><img src="assets/demos/weave.gif" width="1008" alt="Complete 2D MPD, MMD, and Akule comparison on Canonical Weave with 28 robots"></a>
 
-Canonical Weave · 28 robots · [Explore the animation gallery →](https://akule-diff.github.io/#demos)
+Canonical Weave · 28 robots · MPD / MMD / Akule · [Explore the animation gallery →](https://akule-diff.github.io/#demos)
 </div>
 
 ## Overview

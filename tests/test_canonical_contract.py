@@ -1,6 +1,7 @@
 """Checkpoint and metric contracts for the deployed planner."""
 
 import json
+import pytest
 
 import torch
 
@@ -11,6 +12,7 @@ from diffuser.utils.quality_sparse_v1 import spline_matrix
 from diffuser.utils.quality_sparse_v1 import metrics
 
 
+@pytest.mark.model_assets
 def test_locked_checkpoint_hashes():
     from scripts.canonical_n28_runtime import CHECKPOINTS, EXPECTED, sha
 

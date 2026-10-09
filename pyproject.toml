@@ -16,6 +16,7 @@ test = ["pytest==8.4.2"]
 include = ["akule*", "diffuser*", "scripts*"]
 
 [tool.pytest.ini_options]
+markers = ["model_assets: requires downloaded checkpoint or native trajectory assets"]
 testpaths = ["tests"]
 pythonpath = [".", "scripts"]
 

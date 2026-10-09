@@ -27,3 +27,11 @@ python scripts/evaluate.py --env conveyor --n 3 --mode sparse --repair --output 
 ```
 
 The GPU validation platform was Linux with an NVIDIA RTX 5090, PyTorch 2.7.0, and CUDA 12.8. These are functional smoke checks, not replacements for the manuscript's frozen timing measurements. An exit code of zero means evaluation completed; inspect the saved `success` field and native planner status to determine feasibility. Rendering was checked with the released visualization script and FFmpeg.
+
+## Lightweight continuous integration
+
+The `CPU unit tests` GitHub Actions workflow uses Python 3.9 and CPU-only PyTorch. It checks selector/composer behavior, permutation equivariance, collisions, saved scenes, and archive integrity without downloading model bundles. Tests marked `model_assets` remain part of the full suite after checkpoint installation. Native planner integration tests remain in the full local validation suite.
+
+```bash
+python -m pytest -q -m "not model_assets" tests/test_canonical_contract.py tests/test_common_strict_safety.py tests/test_release_io.py tests/test_smd_temporal_metrics.py
+```

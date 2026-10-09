@@ -5,6 +5,7 @@ from pathlib import Path
 from types import SimpleNamespace
 
 import torch
+import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -24,6 +25,7 @@ def test_codec_respects_pinned_empty_vs_structured_channel_units():
     torch.testing.assert_close(structured.encode(structured.decode(normalized)), normalized)
 
 
+@pytest.mark.model_assets
 def test_units_match_downloaded_official_trajectory_data():
     root = ROOT / "external/mmd/data_trajectories"
     for model, velocity_is_mps in (
